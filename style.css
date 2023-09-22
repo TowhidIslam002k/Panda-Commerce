@@ -1,57 +1,86 @@
-.container{
-    margin-bottom: 100px;
+.price {
+    color: #FF136F;
 }
-.orange-bg{
-    background-color: #fceae8;
-    border-radius: 10px;
-}
-.carousel-item{
-    padding: 30px 50px;
-}
-.price{
- color: #FF136F;
-}
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #fffb1f 0%, #fffb1f 100%);
-    color: black;
+
+.buy-now {
+    background-image: linear-gradient(45deg, blue, cyan);
+    color: white;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
 }
-.cat1{
-    background-color: orange;
-}
-.cat2{
-    background-color: orchid;
-}
-.cat3{
-    background-color: blue;
-}
-.cat1, .cat2, .cat3 {
-    padding: 10px 30px;
-    border-radius: 10px;
-}
-.categories h1{
+
+.buy-now:hover{
+    background-image: linear-gradient(45deg, tomato, yellow);
     color: white;
 }
-.categories img{
-    width: 100px;
+
+.container {
+    margin-bottom: 100px;
 }
-.card{
+
+.orange-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 30px 50px;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: blue;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    
+    border-radius: 10px;
+}
+
+.categories h1 {
+    color: white;
+}
+
+@media(max-width: 991px){
+    .categories img{
+        width: 110px;
+    }
+}
+
+.card {
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 20px lightgray;
 }
-.card-title{
-    color:blue;
+
+.card-title {
+    color: blue;
 }
-#contact{
+
+#contact {
     height: 300px;
 }
-#contact h6{
+
+#contact h6 {
     color: gray;
 }
-footer{
+
+footer {
     color: dimgray;
     text-align: center;
+}
+
+input:hover {
+    font-weight: 900;
+    background-color: rgba(127, 255, 212, 0.623);
 }
